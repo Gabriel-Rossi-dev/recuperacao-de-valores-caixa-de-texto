@@ -30,6 +30,30 @@
             android:hint="Digite seu e-mail" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cores" />
+
+    <CheckBox
+        android:id="@+id/boxRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vermelho " />
+
+    <CheckBox
+        android:id="@+id/boxGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green" />
+
+    <CheckBox
+        android:id="@+id/boxBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue" />
+
     <Button
         android:id="@+id/sendButton"
         android:layout_width="match_parent"
@@ -48,6 +72,6 @@
         android:id="@+id/textResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="result"
+        android:text="resultado"
         android:textSize="18sp" />
 </LinearLayout>
