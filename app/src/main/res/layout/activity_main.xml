@@ -54,6 +54,36 @@
         android:layout_height="wrap_content"
         android:text="Blue" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Homem" />
+
+        <RadioButton
+            android:id="@+id/radioButtonF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mulher" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não binário" />
+    </RadioGroup>
+
     <Button
         android:id="@+id/sendButton"
         android:layout_width="match_parent"
